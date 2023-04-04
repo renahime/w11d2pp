@@ -12,7 +12,7 @@ module.exports = {
      * }], {});
     */
 
-    await queryInterface.bulkInsert('Tree', [
+    await queryInterface.bulkInsert('Trees', [
       {
           tree: 'General Sherman',
           location: 'Sequoia National Park',
@@ -55,7 +55,7 @@ module.exports = {
      * await queryInterface.bulkDelete('People', null, {});
      */
 
-    await queryInterface.bulkDelete('Tree', {
+    await queryInterface.bulkDelete('Trees', {
       tree:['General Sherman', 'General Grant', 'President', 'Lincoln', 'Stagg']
     })
   }
