@@ -54,7 +54,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-
     await queryInterface.bulkDelete('Trees', {
       tree:['General Sherman', 'General Grant', 'President', 'Lincoln', 'Stagg']
     })
